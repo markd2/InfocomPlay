@@ -1,5 +1,18 @@
 # ZORK 1
 
+Treasures:
+  - Leaflet: West of house (open mailbox)
+  - Nest with jewel-encrusted egg: Up a Tree
+  - Pile of leaves: Clearing2
+  - Glass Bottle with water: Kitchen
+  - Brown Sack: Kitchen
+  - Lunch: Kitchen (inside lunch sack)
+  - Clove of Garlic: Kitchen (inside lunch sack)
+  - Elvish Sword: Living Room
+  - Battery-Powered Brass Lantern: Living Room
+  - coil of rope: Attic
+  - Nasty-looking knife
+
 (register 1)
   N:
   S:
@@ -166,7 +179,7 @@ Behind House
   N: North of house
   S: South of House
   E: Clearing
-  W: (kitch window is closed)
+  W: Kitchen (after opening window)
   NW: North of House
   NE: X
   SW: South of House
@@ -264,7 +277,6 @@ End of Rainbow
   U: X
   D: X
 
-
 Up a Tree
   You are about 10 feet above the ground nestled among some large
   branches. The nearest branch above you is above your reach.
@@ -288,3 +300,65 @@ Up a Tree
   SE: X
   U: X
   D: Forest Path
+
+Kitchen
+  You are in the kitchen of the white house. A table seems to have
+  been used recently for the preparation of food. A passage leads to the
+  west and a dark staircase can be seen leading upward. A dark chimney
+  leads down and to the east is a small window which is open.
+
+  On the table is an elongated brown sack, smelling of hot peppers.
+  _(the sack contains a lunch, and a clove of garlic)_
+  A bottle is sitting on the table.
+  The glass bottle contains:
+    A quantity of water
+
+  N: X
+  S: X
+  E: Behind House
+  W: Living Room
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: Attic
+  D: X (only Santa Claus climbs down chimneys)
+
+Attic
+  This is the attic. The only exit is a stairway leading down.
+  A large coil of rope is lying in the corner.
+  On a table is a nasty-looking knife.
+
+  N: X
+  S: X
+  E: X
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: Kitchen
+
+
+Living Room
+  You are in the living room. There is a doorway to the east, a wooden
+  door with strange gothic lettering to the west, which appears to be
+  nailed shut, a trophy case, and a large oriental rug in the center of
+  the room.
+  (read lettering: The engravings translate to "This space
+  intentionally left blank."
+  Above the trophy case hangs an elvish sword of great antiquity.
+  A battery-powered brass lantern is on the trophy case.
+
+  N: X
+  S: X
+  E: Kitchen
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: 
+
