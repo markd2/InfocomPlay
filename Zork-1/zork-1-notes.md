@@ -340,7 +340,6 @@ Attic
   U: X
   D: Kitchen
 
-
 Living Room
   You are in the living room. There is a doorway to the east, a wooden
   door with strange gothic lettering to the west, which appears to be
@@ -360,5 +359,150 @@ Living Room
   SW: X
   SE: X
   U: X
-  D: 
+  D: Cellar
 
+----------
+
+Cellar
+  You are in a dark and damp cellar with a narrow passageway leading
+  north, and a crawlway to the south. On the west is the bottom of a
+  steep metal ramp which is unclimbable.
+  Your sword is glowing with a faint blue glow.
+
+  N: The Troll Room
+  S: East of Chasm
+  E: X
+  W: X (can't ascend ramp)
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: D
+
+East of Chasm
+  You are on the east edge of a chasm, the bottom of which cannot be
+  seen. A narrow passage goes north, and the path you are on continues
+  to the east.
+
+  N: Cellar
+  S: X
+  E:
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X (probably leads straight to the infernal regions)
+
+The Troll Room
+  This is a small room with passages to the east and south and a
+  forbidding hole leading west. Bloodstains and deep scratches (perhaps
+  made by an axe) mar the walls.
+  A nasty-looking troll, brandishing a bloody axe, blocks all passages
+  out of the room.
+  Your sword has begun to glow very brightly.
+
+  N: X
+  S: Cellar
+  E: East-West Passage
+  W: Maze
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Maze
+  This is part of a maze of twisty little passages, all alike.
+  Immediately go E to get back to the troll room
+  N:
+  S:
+  E:
+  W:
+  NW:
+  NE:
+  SW:
+  SE:
+  U:
+  D:
+
+East-West Passage
+  This is a narrow east-west passageway. There is a narrow stairway
+  leading down at the north end of the room.
+
+  N: Chasm
+  S: X
+  E: Round Room
+  W: The Troll Room
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: Chasm
+
+Chasm
+  A chasm runs southwest to northeast and the path follows it. You are
+  on the south side of the chasm, where a crack opens into a passage.
+
+  N: X
+  S: North-South Passage
+  E: X
+  W: X
+  NW: X
+  NE: Reservoir South
+  SW: East-West Passage
+  SE: X
+  U: East-West Passage
+  D: X
+
+North-South Passage
+  This is a high north-south passage, which forks to the northeast.
+
+  N:
+  S: Round Room
+  E:
+  W:
+  NW:
+  NE:
+  SW:
+  SE:
+  U:
+  D:
+
+Round Room
+  This is a circular stone room with passages in all
+  directions. Several of them have unfortunately been blocked by
+  cave-ins.
+
+  N: Nort-South Passage
+  S:
+  E:
+  W: East-West Passage
+  NW:
+  NE:
+  SW:
+  SE:
+  U:
+  D:
+
+Resevoir South
+  You are in a long room on the south shore of a large lake, far too
+  deep and wide for crossing.  There is a path along the stream to the
+  east or west, a steep pathway climbing southwest along the edge of a
+  chasm, and a path leading into a canyon to the southeast.
+
+  N:
+  S:
+  E:
+  W:
+  NW:
+  NE:
+  SW: Chasm
+  SE:
+  U:
+  D:
+  Lake Crossing?
