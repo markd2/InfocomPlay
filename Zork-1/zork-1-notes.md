@@ -12,6 +12,9 @@ Treasures:
   - Battery-Powered Brass Lantern: Living Room
   - coil of rope: Attic
   - Nasty-looking knife
+  - Platinum Bar: Loud Room
+  - Tour Gudebook: Dam Lobby
+  - Matchbook: Dam Lobby
 
 (register 1)
   N:
@@ -462,26 +465,142 @@ Chasm
 North-South Passage
   This is a high north-south passage, which forks to the northeast.
 
-  N:
+  N: Chasm
   S: Round Room
-  E:
-  W:
-  NW:
-  NE:
-  SW:
-  SE:
-  U:
-  D:
+  E: X
+  W: X
+  NW: X
+  NE: Deep Canyon
+  SW: X
+  SE: X
+  U: X
+  D: X
 
 Round Room
   This is a circular stone room with passages in all
   directions. Several of them have unfortunately been blocked by
   cave-ins.
 
-  N: Nort-South Passage
+  N: North-South Passage
+  S: Narrow Passage
+  E: Loud Room
+  W: East-West Passage
+  NW: X
+  NE: X
+  SW: X
+  SE: Engravings Cave
+  U: X
+  D: X
+
+Reservoir South
+  You are in a long room on the south shore of a large lake, far too
+  deep and wide for crossing.  There is a path along the stream to the
+  east or west, a steep pathway climbing southwest along the edge of a
+  chasm, and a path leading into a canyon to the southeast.
+
+  N: X (you would drown)
+  S: X
+  E: Dam
+  W: Stream View
+  NW: X
+  NE: X
+  SW: Chasm
+  SE: Deep Canyon
+  U: X
+  D: X
+
+  Lake Crossing?
+
+Deep Canyon
+  You are on the south edge of a deep canyon. Passages lead off to the
+  east, northwest and southwest. A stairway leads down. You can hear the
+  sound of flowing water from below.
+
+  N: X
+  S: X
+  E: Dam
+  W: X
+  NW: Reservoir South
+  NE: X
+  SW: North-South Passage
+  SE: X
+  U: X
+  D: Loud Room
+
+Narrow Passage
+  This is a long and narrow corridor where a long north-south
+  passageway briefly narrows even further.
+
+  N: Round Room
+  S: Mirror Room
+  E: X
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Loud Room
+  This is a large room with a ceiling which cannot be detected from the
+  ground. There is a narrow passage from east to west and a stone
+  stairway leading upward. The room is deafeningly loud with an
+  undetermined rushing sound. The sound seems to reverberate from all of
+  the walls, making it difficult even to think.
+  
+  On the ground is a large platinum bar.  (Can't pick up) "Echo" (quiets room)
+  The room is eerie in its quietness.
+
+  N: X
+  S: X
+  E: Damp Cave
+  W: Round Room
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: Deep Canyon
+  D: X
+
+Engravings Cave
+  You have entered a low cave with passages leading northwest and east.
+  There are old engravings on the walls here.
+
+  (examine engravings) The engravings were incised in the living rock
+  of the cave wall by an unknown hand. They depict, in symbolic form,
+  the beliefs of the ancient Zorkers. Skillfully interwoven with the bas
+  reliefs are excerpts illustrating the major religious tenets of that
+  time.  Unfortunately, a later age seems to have considered them
+  blasphemous and just as skillfully excised them.
+
+  N: X
+  S: X
+  E: Dome Room
+  W: X
+  NW: Round Room
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Dam
+  You are standing on the top of the Flood Control Dam #3, which was
+  quite a tourist attraction in times far distant. There are paths to
+  the north, south, and west, and a scramble down.
+
+  The sluice gates on the dam are closed. Behind the dam, there can be
+  seen a wide reservoir. Water is pouring over the top of the now
+  abandoned dam.
+
+  There is a control panel here, on which a large metal bolt is
+  mounted. Directly above the bolt is a small green plastic bubble.
+
+  N: Dam Lobby
   S:
   E:
-  W: East-West Passage
+  W: Reservoir South
   NW:
   NE:
   SW:
@@ -489,20 +608,74 @@ Round Room
   U:
   D:
 
-Resevoir South
-  You are in a long room on the south shore of a large lake, far too
-  deep and wide for crossing.  There is a path along the stream to the
-  east or west, a steep pathway climbing southwest along the edge of a
-  chasm, and a path leading into a canyon to the southeast.
+Stream View
+  You are standing on a path beside a gently flowing stream. The path
+  follows the stream, which flows from west to east.
 
   N:
   S:
+  E: Reservoir South
+  W:
+  NW:
+  NE:
+  SW:
+  SE:
+  U:
+  D:
+
+Dam Lobby
+  This room appears to have been the waiting room for groups touring
+  the dam. There are open doorways here to the north and east marked
+  "Private", and there is a path leading south over the top of the dam.
+
+  Some guidebooks entitled "Flood Control Dam #3" are on the reception desk.
+  There is a matchbook whose cover says "Visit Beautiful FCD#3" here.
+
+  N:
+  S: Dam
   E:
   W:
   NW:
   NE:
-  SW: Chasm
+  SW:
   SE:
   U:
   D:
-  Lake Crossing?
+
+Mirror Room
+  You are in a large square room with tall ceilings. On the south wall
+  is an enormous mirror which fills the entire wall. There are exits on
+  the other three sides of the room.
+
+  (touch mirror) There is a rumble from deep within the earth and the
+  room shakes.
+  (can break mirror)
+
+  N:
+  S: X
+  E:
+  W:
+  NW:
+  NE:
+  SW:
+  SE:
+  U: X
+  D: X
+
+Dome Room
+  You are at the periphery of a large dome, which forms the ceiling of
+  another room below.  Protecting you from a precipitous drop is a
+  wooden railing which circles the dome.
+
+  N: X
+  S: X
+  E: X
+  W: Engravings Cave
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X (probably need rope)
+
+
