@@ -22,6 +22,8 @@ Treasures:
   - Crystal Trident: Atlantis Room
   - Air Pump: Reservoir North
   - Jade Figurine: Bat Room
+  - Painting: Gallery
+  - Zork Owner's Manual: Studio
 
 (register 1)
   N:
@@ -397,7 +399,7 @@ East of Chasm
 
   N: Cellar
   S: X
-  E:
+  E: Gallery
   W: X
   NW: X
   NE: X
@@ -424,20 +426,6 @@ The Troll Room
   SE: X
   U: X
   D: X
-
-Maze
-  This is part of a maze of twisty little passages, all alike.
-  Immediately go E to get back to the troll room
-  N:
-  S:
-  E:
-  W:
-  NW:
-  NE:
-  SW:
-  SE:
-  U:
-  D:
 
 East-West Passage
   This is a narrow east-west passageway. There is a narrow stairway
@@ -981,3 +969,110 @@ Coal Mine
   U:
   D: Ladder Top
 
+Gallery
+  This is an art gallery. Most of the paintings have been stolen by
+  vandals with exceptional taste. The vandals left through either the
+  north or west exits.
+
+  Fortunately, there is still one chance for you to be a vandal, for on
+  the far wall is a painting of unparalleled beauty.
+
+  N: Studio
+  S: X
+  E: X
+  W: East of Chasm
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Studio
+  This appears to have been an artist's studio. The walls and floors
+  are splattered with paints of 69 different colors. Strangely enough,
+  nothing of value is hanging here. At the south end of the room is an
+  open door (also covered with paint). A dark and narrow chimney leads
+  up from a fireplace; although you might be able to get up it, it seems
+  unlikely you could get back down.
+
+  Loosely attached to a wall is a small piece of paper. (zork owner's manual)
+
+  You are the privileged owner of ZORK I: The Great Underground Empire,
+  a self-contained and self-maintaining universe. If used and maintained
+  in accordance with normal operating practices for small universes,
+  ZORK will provide many months of trouble-free operation.
+
+  N: X
+  S: Gallery
+  E: X
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: Kitchen
+  D: X
+
+
+Maze1(garlic)
+  This is part of a maze of twisty little passages, all alike.
+  Immediately go E to get back to the troll room
+  N: Maze1
+  S: Maze4
+  E: Troll Room
+  W: Maze2
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Maze2(screwdriver)
+  N: Maze1
+  S: X
+  E: Dead End
+  W: Maze3
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Maze3(leaflet)
+  N: Maze2
+  S: X
+  E: X
+  W: Maze4
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Maze4(sandwich)
+  N: X
+  S: Maze1
+  E: Maze3
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: Maze2
+
+Dead End (tube)
+  N: X
+  S: Maze2
+  E: X
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
