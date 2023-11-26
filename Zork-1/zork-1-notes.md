@@ -14,7 +14,7 @@ Treasures:
   - Nasty-looking knife
   - Platinum Bar: Loud Room
   - Tour Gudebook: Dam Lobby
-  - Matchbook: Dam Lobby
+  - Matchbook: Dam Lobby (5 matches)
   - Raft: Dam Base
   - Tube of Gunk: Maintenance Room
   - Wrench: Maintenance Room
@@ -24,6 +24,12 @@ Treasures:
   - Jade Figurine: Bat Room
   - Painting: Gallery
   - Zork Owner's Manual: Studio
+  - Ivory Torch: Torch Room
+  - Brass Bell: Temple
+  - Pair of candles: Altar
+  - Black Book: Altar
+  - Gold Coffin: Egyptian Room (carryable!)
+  - Gold Scepter: Egyptian Room (inside coffin)
 
 (register 1)
   N:
@@ -692,6 +698,7 @@ Dome Room
   You are at the periphery of a large dome, which forms the ceiling of
   another room below.  Protecting you from a precipitous drop is a
   wooden railing which circles the dome.
+  (tie rope to rail)
 
   N: X
   S: X
@@ -702,7 +709,7 @@ Dome Room
   SW: X
   SE: X
   U: X
-  D: X (probably need rope)
+  D: Torch Room (after tying rope to rail)
 
 Dam Base
   You are at the base of Flood Control Dam #3, which looms above you
@@ -752,16 +759,15 @@ Cave
   forbidding staircase leading down.
 
   N: Mirror Room
-  S:
-  E:
+  S: X
+  E: X
   W: Winding Passage
-  NW:
-  NE:
-  SW:
-  SE:
-  U:
-  D:
-
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: Entrance to Hades
 
 Winding Passage
   This is a winding passage. It seems that there are only exits on the
@@ -1014,6 +1020,137 @@ Studio
   U: Kitchen
   D: X
 
+Torch Room
+  This is a large room with a prominent doorway leading to a down
+  staircase. Above you is a large dome. Up around the edge of the dome
+  (20 feet up) is a wooden railing. In the center of the room sits a
+  white marble pedestal.
+
+  A piece of rope descends from the railing above, ending some five
+  feet above your head.
+
+  Sitting on the pedestal is a flaming torch, made of ivory.
+  (can put stuff on the pedestal)
+
+  N: X
+  S: Temple
+  E: X
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X (can't reach rope)
+  D: Temple
+
+Temple
+  This is the north end of a large temple. On the east wall is an
+  ancient inscription, probably a prayer in a long-forgotten
+  language. Below the prayer is a staircase leading down. The west wall
+  is solid granite. The exit to the north end of the room is through
+  huge marble pillars.
+
+  Prayer:
+    The prayer is inscribed in an ancient script, rarely used today. It
+    seems to be a philippic against small insects, absent-mindedness, and
+    the picking up and dropping of small objects.  The final verse
+    consigns trespassers to the land of the dead. All evidence indicates
+    that the beliefs of the ancient Zorkers were obscure.
+
+  There is a brass bell here.
+
+  N: Torch Room
+  S: Altar
+  E: Egyptian Room
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: Torch Room
+  D: Egyptian Room
+
+Egyptian Room
+  This is a room which looks like an Egyptian tomb. There is an
+  ascending staircase to the west.
+
+  The solid-gold coffin used for the burial of Ramses II is here.
+
+  (open coffin)
+  A sceptre, possibly that of ancient Egypt itself, is in the
+  coffin. The sceptre is ornamented with colored enamel, and tapers to a
+  sharp point.
+
+  N: X
+  S: X
+  E: X
+  W: Temple
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: Temple
+  D: X
+
+Altar
+  This is the south end of a large temple. In front of you is what
+  appears to be an altar. In one corner is a small hole in the floor
+  which leads into darkness. You probably could not get back up it.
+
+  On the two ends of the altar are burning candles.
+  On the altar is a large black book, open to page 569.
+
+  Book:
+    Commandment #12592
+
+    Oh ye who go about saying unto each:  "Hello sailor":
+    Dost thou know the magnitude of thy sin before the gods?
+    Yea, verily, thou shalt be ground between two stones.
+    Shall the angry gods cast thy body into the whirlpool?
+    Surely, thy eye shall be put out with a sharp stick!
+    Even unto the ends of the earth shalt thou wander and
+    Unto the land of the dead shalt thou be sent at last.
+    Surely thou shalt repent of thy cunning.
+
+  N: Temple
+  S: X
+  E: X
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: Cave
+
+Entrance to Hades
+  You are outside a large gateway, on which is inscribed
+    Abandon every hope all ye who enter here!
+  The gate is open; through it you can see a desolation, with a pile of
+  mangled bodies in one corner. Thousands of voices, lamenting some
+  hideous fate, can be heard.  The way through the gate is barred by
+  evil spirits, who jeer at your attempts to pass.
+
+  N: X
+  S: (some invisible force prevents you from passing through the gate)
+  E: X
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: Cave
+  D: X
+
+  Ring Bell:
+    The bell suddenly becomes red hot and falls to the ground. The
+    wraiths, as if paralyzed, stop their jeering and slowly turn to face
+    you. On their ashen faces, the expression of a long-forgotten terror
+    takes shape.  
+  In your confusion, the candles drop to the ground (and they are out).
+  (and if you mess up, the bell is too hot to handle)
+  (and don't try lighting candles with the torch
+
 
 Maze1(garlic)
   This is part of a maze of twisty little passages, all alike.
@@ -1076,3 +1213,19 @@ Dead End (tube)
   SE: X
   U: X
   D: X
+
+Matchbook Text:
+  (Close cover before striking)
+
+  YOU too can make BIG MONEY in the exciting field of PAPER SHUFFLING!
+
+  Mr. Anderson of Muddle, Mass. says: "Before I took this course I was a
+  lowly bit twiddler.  Now with what I learned at GUE Tech I feel really
+  important and can obfuscate and confuse with the best."
+
+  Dr. Blank had this to say: "Ten short days ago all I could look
+  forward to was a dead-end job as a doctor. Now I have a promising
+  future and make really big Zorkmids."
+
+  GUE Tech can't promise these fantastic results to everyone. But when
+  you earn your degree from GUE Tech, your future will be brighter.
