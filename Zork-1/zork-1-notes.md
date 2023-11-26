@@ -15,6 +15,13 @@ Treasures:
   - Platinum Bar: Loud Room
   - Tour Gudebook: Dam Lobby
   - Matchbook: Dam Lobby
+  - Raft: Dam Base
+  - Tube of Gunk: Maintenance Room
+  - Wrench: Maintenance Room
+  - Screwdriver: Maintenance Room
+  - Crystal Trident: Atlantis Room
+  - Air Pump: Reservoir North
+  - Jade Figurine: Bat Room
 
 (register 1)
   N:
@@ -598,15 +605,15 @@ Dam
   mounted. Directly above the bolt is a small green plastic bubble.
 
   N: Dam Lobby
-  S:
-  E:
+  S: Deep Canyon
+  E: Dam Base
   W: Reservoir South
-  NW:
-  NE:
-  SW:
-  SE:
-  U:
-  D:
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: Dam Base
 
 Stream View
   You are standing on a path beside a gently flowing stream. The path
@@ -631,16 +638,33 @@ Dam Lobby
   Some guidebooks entitled "Flood Control Dam #3" are on the reception desk.
   There is a matchbook whose cover says "Visit Beautiful FCD#3" here.
 
-  N:
+  N: Maintenance Room
   S: Dam
-  E:
-  W:
-  NW:
-  NE:
-  SW:
-  SE:
-  U:
-  D:
+  E: Maintenance Room
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+  Guidebook:
+  "Flood Control Dam #3
+   FCD#3 was constructed in year 783 of the Great Underground Empire to
+   harness the mighty Frigid River. This work was supported by a grant of
+   37 million zorkmids from your omnipotent local tyrant Lord Dimwit
+   Flathead the Excessive. This impressive structure is composed of
+   370,000 cubic feet of concrete, is 256 feet tall at the center, and
+   193 feet wide at the top. The lake created behind the dam has a volume
+   of 1.7 billion cubic feet, an area of 12 million square feet, and a
+   shore line of 36 thousand feet.
+
+   We will now point out some of the more interesting features of FCD#3
+   as we conduct you on a guided tour of the facilities:
+       1) You start your tour here in the Dam Lobby. You will notice
+          on your right that....
+
 
 Mirror Room
   You are in a large square room with tall ceilings. On the south wall
@@ -651,16 +675,30 @@ Mirror Room
   room shakes.
   (can break mirror)
 
-  N:
+  (normal)
+  N: Narrow Passage
   S: X
-  E:
-  W:
-  NW:
-  NE:
-  SW:
-  SE:
+  E: Cave
+  W: Winding Passage
+  NW: X
+  NE: X
+  SW: X
+  SE: X
   U: X
   D: X
+
+  (touch mirror)
+  N: Cold Room
+  S: X
+  E: Cave2
+  W: Twisting Passage
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
 
 Dome Room
   You are at the periphery of a large dome, which forms the ceiling of
@@ -678,4 +716,268 @@ Dome Room
   U: X
   D: X (probably need rope)
 
+Dam Base
+  You are at the base of Flood Control Dam #3, which looms above you
+  and to the north. The river Frigid is flowing by here. Along the river
+  are the White Cliffs which seem to form giant walls stretching from
+  north to south along the shores of the river as it winds its way
+  downstream.
+
+  There is a folded pile of plastic here which has a small valve attached. (raft)
+
+  N: Dam
+  S: X
+  E: X
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: Dam
+  D: X
+
+Maintenance Room
+  This is what appears to have been the maintenance room for Flood
+  Control Dam #3.  Apparently, this room has been ransacked recently,
+  for most of the valuable equipment is gone. On the wall in front of
+  you is a group of buttons colored blue, yellow, brown, and red. There
+  are doorways to the west and south.
+
+  There is a group of tool chests here (crumble when touched)
+  There is a wrench here.
+  There is an object which looks like a tube of toothpaste here. (all-purpose gunk)
+  There is a screwdriver here.
+
+  N: X
+  S: Dam Lobby
+  E: X
+  W: Dam Lobby
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Cave
+  This is a tiny cave with entrances west and north, and a dark,
+  forbidding staircase leading down.
+
+  N: Mirror Room
+  S:
+  E:
+  W: Winding Passage
+  NW:
+  NE:
+  SW:
+  SE:
+  U:
+  D:
+
+
+Winding Passage
+  This is a winding passage. It seems that there are only exits on the
+  east and north.
+
+  N: Mirror Room
+  S:
+  E: Cave
+  W:
+  NW:
+  NE:
+  SW:
+  SE:
+  U:
+  D:
+
+Cold Passage (mirrored)
+  This is a cold and damp corridor where a long east-west passageway
+  turns into a southward path.
+
+  N: X
+  S: Mirror Room
+  E: Cave2
+  W: Slide Room
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Cave2 (mirrored)
+  This is a tiny cave with entrances west and north, and a staircase
+  leading down.
+
+  N: Mirror Room (mirrored)
+  S: Atlantis Room
+  E: X
+  W: Twisting Passage
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: Atlantis Room
+
+Atlantis Room (mirrored)
+  This is an ancient room, long under water. There is an exit to the
+  south and a staircase leading up.
+  On the shore lies Poseidon's own crystal trident.
+
+  N: X
+  S: Reservoir North
+  E: X
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: Cave2
+  D: X
+
+Reservoir North (mirrored)
+  You are in a large cavernous room, north of a large lake.
+  There is a slimy stairway leaving the room to the north.
+
+  There is a hand-held air pump here.
+
+  N: Atlantis Room
+  S: X (you would drown)
+  E: X
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Twisting Passage (mirrored)
+  This is a winding passage. It seems that there are only exits on the
+  east and north.
+
+  N: Mirror Room
+  S: X
+  E: Cave2
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Slide Room (mirrored)
+  This is a small chamber, which appears to have been part of a coal
+  mine. On the south wall of the chamber the letters "Granite Wall" are
+  etched in the rock. To the east is a long passage, and there is a
+  steep metal slide twisting downward. To the north is a small opening.
+
+  N: Mine Entrance
+  S: X
+  E: Cold Passage
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: Cellar
+
+Mine Entrance (mirrored?)
+  You are standing at the entrance of what might have been a coal
+  mine. The shaft enters the west wall, and there is another exit on the
+  south end of the room.
+
+  N: X
+  S: Slide Room
+  E: X
+  W: Squeaky Room
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Squeaky Room (mirrored?)
+  You are in a small room. Strange squeaky sounds may be heard coming
+  from the passage at the north end. You may also escape to the east.
+
+  N: Bat Room
+  S: Slide Room
+  E: Mine Entrance
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: X
+  D: X
+
+Bat Room (mirrored?)
+  You are in a small room which has doors only to the east and south.
+  A large vampire bat, hanging from the ceiling, swoops down at you!
+  
+  There is an exquisite jade figurine here.
+  (and get carried away by a bat
+
+  N:
+  S:
+  E:
+  W:
+  NW:
+  NE:
+  SW:
+  SE:
+  U:
+  D:
+
+Ladder Top
+  This is a very small room. In the corner is a rickety wooden ladder,
+  leading downward. It might be safe to descend. There is also a
+  staircase leading upward.
+
+  N: X
+  S: X
+  E: X
+  W: X
+  NW: X
+  NE: X
+  SW: X
+  SE: X
+  U: Coal Mine
+  D: Ladder Bottom
+
+Ladder Bottom
+  This is a rather wide room. On one side is the bottom of a narrow
+  wooden ladder. To the west and the south are passages leaving the
+  room.
+
+  N:
+  S:
+  E:
+  W:
+  NW:
+  NE:
+  SW:
+  SE:
+  U:
+  D:
+
+
+Coal Mine
+  This is a non-descript part of a coal mine.
+
+  N:
+  S:
+  E:
+  W:
+  NW:
+  NE:
+  SW:
+  SE:
+  U:
+  D: Ladder Top
 
